@@ -22,9 +22,3 @@ jobs:
         with:
           name: output
           path: output
-      - name: 'Upload Artifact'
-        uses: actions/upload-artifact@v2
-        with:
-          name: my-artifact
-          path: output/result.pdf
-          retention-days: 5
